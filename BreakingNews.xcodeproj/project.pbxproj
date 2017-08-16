@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132BA0811F43CF03004B74AC /* BNUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132BA0801F43CF03004B74AC /* BNUtils.swift */; };
+		132BA0831F43CF83004B74AC /* BNEtxn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132BA0821F43CF83004B74AC /* BNEtxn.swift */; };
 		C9543DE41D3F003D0008E711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9543DE31D3F003D0008E711 /* AppDelegate.swift */; };
 		C9543DE61D3F003D0008E711 /* BNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9543DE51D3F003D0008E711 /* BNViewController.swift */; };
 		C9543DE91D3F003D0008E711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9543DE71D3F003D0008E711 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		132BA0801F43CF03004B74AC /* BNUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNUtils.swift; sourceTree = "<group>"; };
+		132BA0821F43CF83004B74AC /* BNEtxn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNEtxn.swift; sourceTree = "<group>"; };
 		C9543DE01D3F003C0008E711 /* BreakingNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9543DE31D3F003D0008E711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9543DE51D3F003D0008E711 /* BNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				C9543DE31D3F003D0008E711 /* AppDelegate.swift */,
 				C9543DE51D3F003D0008E711 /* BNViewController.swift */,
 				C9543DE71D3F003D0008E711 /* Main.storyboard */,
+				132BA0801F43CF03004B74AC /* BNUtils.swift */,
+				132BA0821F43CF83004B74AC /* BNEtxn.swift */,
 				C9543DEA1D3F003D0008E711 /* Assets.xcassets */,
 				C9543DEC1D3F003D0008E711 /* LaunchScreen.storyboard */,
 				C9543DEF1D3F003D0008E711 /* Info.plist */,
@@ -139,6 +145,8 @@
 			files = (
 				C9543DE61D3F003D0008E711 /* BNViewController.swift in Sources */,
 				C9543DE41D3F003D0008E711 /* AppDelegate.swift in Sources */,
+				132BA0831F43CF83004B74AC /* BNEtxn.swift in Sources */,
+				132BA0811F43CF03004B74AC /* BNUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
