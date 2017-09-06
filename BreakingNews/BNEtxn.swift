@@ -9,5 +9,7 @@
 import UIKit
 class BNEtxn {
     
+    // MARK: - Shared Instance
+    static let sharedInstance = Singleton()
 }
 
