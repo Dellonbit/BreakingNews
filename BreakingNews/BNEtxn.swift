@@ -9,7 +9,16 @@
 import UIKit
 class BNEtxn {
     
-    // MARK: - Shared Instance
-    static let sharedInstance = Singleton()
+    // Declare our 'sharedInstance' property
+    static let sharedInstance = BNEtxn()
+    
+    init() {
+        print("SomeManager initialized")
+    }
+    
+    // Add a test function
+    func doSth() {
+        print("I'm doing something")
+    }
 }
 
